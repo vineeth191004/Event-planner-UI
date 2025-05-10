@@ -1,0 +1,121 @@
+[
+  {
+    "title": "Meeting with Bob",
+    "date": "2025-05-09",
+    "time": "10:00",
+    "duration": "1h",
+    "type": "event"
+  },
+  {
+    "title": "Team Standup",
+    "date": "2025-05-09",
+    "time": "11:00",
+    "duration": "30m",
+    "type": "event"
+  },
+  {
+    "title": "John's Birthday 🎂",
+    "date": "2025-05-14",
+    "time": "All Day",
+    "duration": "",
+    "type": "birthday"
+  },
+  {
+    "title": "Independence Day",
+    "date": "2025-08-15",
+    "time": "All Day",
+    "duration": "",
+    "type": "holiday"
+  },
+  {
+    "title": "Anniversary - Alex & Sam 💖",
+    "date": "2025-05-25",
+    "time": "All Day",
+    "duration": "",
+    "type": "anniversary"
+  },
+  {
+    "title": "Project Kickoff - Apollo 🚀",
+    "date": "2025-05-12",
+    "time": "09:00",
+    "duration": "2h",
+    "type": "event"
+  },
+  {
+    "title": "HR Training Session",
+    "date": "2025-05-20",
+    "time": "14:00",
+    "duration": "1.5h",
+    "type": "training"
+  },
+  {
+    "title": "Client Demo - FinTech App",
+    "date": "2025-05-22",
+    "time": "16:00",
+    "duration": "1h",
+    "type": "event"
+  },
+  {
+    "title": "Monthly Townhall",
+    "date": "2025-05-29",
+    "time": "11:00",
+    "duration": "2h",
+    "type": "event"
+  },
+  {
+    "title": "World No Tobacco Day 🚭",
+    "date": "2025-05-31",
+    "time": "All Day",
+    "duration": "",
+    "type": "holiday"
+  },
+  {
+    "title": "Team Offsite - Beach Day 🌴",
+    "date": "2025-06-05",
+    "time": "All Day",
+    "duration": "",
+    "type": "event"
+  },
+  {
+    "title": "Emma's Graduation 🎓",
+    "date": "2025-06-08",
+    "time": "All Day",
+    "duration": "",
+    "type": "celebration"
+  },
+  {
+    "title": "Product Launch - Nova",
+    "date": "2025-06-10",
+    "time": "10:30",
+    "duration": "2h",
+    "type": "event"
+  },
+  {
+    "title": "Father's Day 👨‍👧‍👦",
+    "date": "2025-06-15",
+    "time": "All Day",
+    "duration": "",
+    "type": "holiday"
+  },
+  {
+    "title": "Strategy Workshop",
+    "date": "2025-06-20",
+    "time": "13:00",
+    "duration": "3h",
+    "type": "training"
+  },
+  {
+    "title": "Annual Budget Review 📊",
+    "date": "2025-06-25",
+    "time": "09:00",
+    "duration": "2h",
+    "type": "event"
+  },
+  {
+    "title": "Leo's Birthday 🎉",
+    "date": "2025-06-30",
+    "time": "All Day",
+    "duration": "",
+    "type": "birthday"
+  }
+]
