@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# 📅 Vineeth Calendar App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A custom, responsive calendar application built with React, allowing users to view, add, and manage events in **Year**, **Month**, **Week**, and **Day** views. The UI includes a sidebar for quick navigation and supports styled event categories like meetings and trainings.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 📅 Month, Week, Day, and Year views
+- 🧠 Intuitive event creation with modal form
+- 🎨 Styled event categories (Meeting, Training, Default)
+- 🔁 Navigation between months
+- 🧭 Sidebar with organizational categories
+- 🎯 Current day highlighting
+- 🔍 Shows events specific to selected views
+- 🌐 Loads events from `events.json`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧱 Project Structure
 
-### `npm test`
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+vineeth-calendar/
+│
+├── public/
+│   └── events.json               # Static JSON file with initial events
+│
+├── src/
+│   ├── components/
+│   │   ├── Calendar.jsx          # Main calendar logic and UI
+│   │   ├── Calendar.css          # Styles for calendar layout and events
+│   │   ├── Sidebar.jsx           # Left sidebar navigation panel
+│   │   └── Sidebar.css           # Styles for the sidebar
+│
+│   ├── App.js                    # Renders Calendar and Sidebar
+│   └── index.js                  # React root entry point
+│
+├── package.json
+└── README.md                    # This file
 
-### `npm run build`
+````
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Installation & Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/vineeth-calendar.git
+cd vineeth-calendar
 
-### `npm run eject`
+# Install dependencies
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Start the development server
+npm start
+````
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Your app will be running at `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📝 Usage
 
-## Learn More
+* Click on a day to add an event
+* Use the top tabs to switch between views: Year | Month | Week | Day
+* Events will display according to the selected view
+* Sidebar is for future enhancements like filtering or categorization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Sample `events.json`
 
-### Code Splitting
+```json
+[
+  {
+    "title": "Meeting with Bob",
+    "date": "2025-05-10",
+    "time": "10:00",
+    "duration": "1h",
+    "type": "meeting"
+  },
+  {
+    "title": "Project Kickoff - Apollo",
+    "date": "2025-05-13",
+    "time": "09:00",
+    "duration": "2h",
+    "type": "training"
+  }
+]
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🎨 Styling Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* `Calendar.css`: Handles layout for month grid, event boxes, hover, today highlights
+* `Sidebar.css`: Handles left panel with navigation categories
+* You can expand with themes, dark mode, or category filters
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
