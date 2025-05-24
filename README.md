@@ -47,7 +47,7 @@ vineeth-calendar/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vineeth-calendar.git
+git clone https://github.com/vineeth191004/Event-planner-UI.git
 cd vineeth-calendar
 
 # Install dependencies
